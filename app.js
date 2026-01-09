@@ -6,13 +6,12 @@ const cors = require("cors")
 const app = express()
 
 const allowedOrigins = [
-  'http://localhost:5173',               // local dev
-  'https://jobanalytic.netlify.app'      // production
+  'http://localhost:5173',              
+  'https://jobanalytic.netlify.app'      
 ];
 
 app.use(cors({
   origin: function(origin, callback) {
-    // allow requests with no origin (like Postman)
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
