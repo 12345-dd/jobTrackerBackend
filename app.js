@@ -5,10 +5,23 @@ const cors = require("cors")
 
 const app = express()
 
+const allowedOrigins = [
+  'http://localhost:5173',               // local dev
+  'https://jobanalytic.netlify.app'      // production
+];
+
 app.use(cors({
-    origin: process.env.CLIENT_URL || "https://jobanalytic.netlify.app",
-    credentials: true
+  origin: function(origin, callback) {
+    // allow requests with no origin (like Postman)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
 }));
+
 app.use(express.json())
 
 const userRoutes = require("./routes/userRoutes")
