@@ -24,7 +24,7 @@ app.use(cors({
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Job Tracker API is running ✅' });
+  res.json({message: 'Job Tracker API is running'});
 });
 
 const userRoutes = require("./routes/userRoutes")
