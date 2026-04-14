@@ -2,23 +2,23 @@
 
 REST API backend for the Job Analytics application. Built with Node.js, Express.js, and MongoDB with JWT-based authentication.
 
-🔗 **Live API:** [https://jobtrackerbackend-6gxo.onrender.com](https://jobtrackerbackend-6gxo.onrender.com)  
-🔗 **Frontend Repo:** [https://github.com/12345-dd/jobTrackerFrontend](https://github.com/12345-dd/jobTrackerFrontend)  
-🔗 **Live Website:** [https://jobanalytic.netlify.app](https://jobanalytic.netlify.app)
+**Live API:** [https://jobtrackerbackend-6gxo.onrender.com](https://jobtrackerbackend-6gxo.onrender.com)  
+**Frontend Repo:** [https://github.com/12345-dd/jobTrackerFrontend](https://github.com/12345-dd/jobTrackerFrontend)  
+**Live Website:** [https://jobanalytic.netlify.app](https://jobanalytic.netlify.app)
 
 ---
 
 ## Features
 
-- 🔐 **JWT Authentication** — Secure token-based auth
-- 🛡️ **Protected API Routes** — Middleware to guard private endpoints
-- 🗄️ **MongoDB Integration** — Persistent data storage with Mongoose
-- 📋 **Job CRUD Operations** — Create, read, update, delete job applications
-- 🔒 **Password Hashing** — Bcrypt for secure password storage
+- **JWT Authentication** — Secure token-based auth
+- **Protected API Routes** — Middleware to guard private endpoints
+- **MongoDB Integration** — Persistent data storage with Mongoose
+- **Job CRUD Operations** — Create, read, update, delete job applications
+- **Password Hashing** — Bcrypt for secure password storage
 
 ---
 
-## ⚙️ Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 ### Prerequisites
 - Node.js v18+
@@ -53,7 +53,7 @@ node app.js
 ---
 
 
-## 🌐 Deployment
+## Deployment
 
 - Backend is deployed on **Render**
 - Live API URL: [https://jobtrackerbackend-6gxo.onrender.com](https://jobtrackerbackend-6gxo.onrender.com)
