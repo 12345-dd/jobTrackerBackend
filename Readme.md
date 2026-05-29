@@ -2,7 +2,7 @@
 
 REST API backend for the Job Analytics application. Built with Node.js, Express.js, and MongoDB with JWT-based authentication.
 
-**Live API:** [https://jobtrackerbackend-6gxo.onrender.com](https://jobtrackerbackend-6gxo.onrender.com)  
+**Live API:** [https://jobtrackerbackend-production-7e62.up.railway.app](https://jobtrackerbackend-production-7e62.up.railway.app)  
 **Frontend Repo:** [https://github.com/12345-dd/jobTrackerFrontend](https://github.com/12345-dd/jobTrackerFrontend)  
 **Live Website:** [https://jobanalytic.netlify.app](https://jobanalytic.netlify.app)
 
